@@ -1,0 +1,32 @@
+both{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkviolet;
+}
+
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.menu-opcoes a{
+    color: #003366;
+}
+
+.counteiner{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.menu-opcoes{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.dpainel{
+    background-color: green;
+    width: 800px;
+    height: 600px;
+    position: relative;
+}
