@@ -24,9 +24,42 @@ both{
     right: 0px;
 }
 
-.dpainel{
-    background-color: green;
-    width: 800px;
-    height: 600px;
-    position: relative;
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 30px;
+}
+
+.painel{
+    width: 40%;
+    margin: 10px 0;
+    padding-left: 10px;
+    float: left;
+}
+
+.aula1{
+    background-color: burlywood;
+}
+
+.aula2{
+    float: right;
+    background-color: darkgray;
+}
+
+.painel li{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.painel a{
+    color: coral;
+    font-size: 15px;
+    text-align: center;
 }
