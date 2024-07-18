@@ -2,17 +2,49 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Document</title>
+        <title>Contato</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/contato.css">
+        <link rel="stylesheet" href="./css/cabecario.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/mobile.css" media="(max-width:720px)">
     </head>
     <body>
-        <figure id="imagem_autor">
-            <img src="./img/WhatsApp Image 2024-07-08 at 20.30.49.jpeg" alt="Imagem do João H.">
-        </figure>
-        <h1>João Henrique Costa de Souza</h1>
-		<h2>Tenho 15 anos</h2>
-        <h2>Habilidades básicas em JavaScript, HTML e CSS</h2>
-		<p>Hobbies: Jogar videogame, sair com amigos, jogar vôlei, ler mangás e assistir animes, filmes e séries</p>
-		<p>Meu objetivo é aprender mais sobre Front End</p>
+        <header class="container">
+            <figure>
+                <img src="./img/download.png" alt="Imagem de logo">
+            </figure>
+            <nav class="menu-opcoes">
+                <ul>
+                    <li>
+                    <a href="./index.html">Página Principal</a>
+                    </li>
+                    <li>
+                    <a href="./contato.html">Contato</a>
+                    </li>
+                    <li>
+                    <a href="./conteudo.html">Conteúdo</a>
+                    </li>
+                    <li>
+                    <a href="./blog.html">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <figure id="imagem_autor">
+                <img id="imagem" src="./img/WhatsApp Image 2024-07-08 at 20.30.49.jpeg" alt="Imagem do João H.">
+            </figure>
+            <h1>João Henrique Costa de Souza</h1>
+		    <h2>Tenho 15 anos</h2>
+            <h3>Habilidades básicas em JavaScript, HTML e CSS.</h3>
+		    <p>Hobbies: Jogar videogame, sair com amigos, jogar vôlei, ler mangás e assistir animes, filmes e séries.</p>
+		    <p>Meu objetivo é aprender mais sobre Front End.</p>
+            <figure>
+                <video controls>
+                    <source src="movie.mp4" type="video/mp4">
+                </video>
+            </figure>
+        </main>
     </body>
 </html>

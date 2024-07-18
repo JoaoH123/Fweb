@@ -1,0 +1,53 @@
+html, body{
+    width: 100%;
+    height: 80%;
+}
+
+.social a[href*=github]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/github_git_icon_145985.webp);
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.social a[href*=instagram]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/pngtree-instagram-icon-instagram-logo-png-image_3571406.png);
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.social a[href*=tiktok]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/65f270d7d57999a5f48b8855d4a181b4.png);
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.social{
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+}
+
+footer{
+    position: relative;
+    height: 75px;
+    clear: both;
+    background-image: url(../img/cq5dam.web.1280.1280.png);
+    height: 15%;
+}
+
+.social a{
+    float: left;
+    margin-right: 20px;
+}

@@ -1,48 +1,67 @@
-both{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:darkviolet;
-}
-
-.menu-opcoes ul{
-    font-size: 20px;
-}
-
-.menu-opcoes a{
-    color: #003366;
-}
-
-.counteiner{
+.container{
     width: 90%;
     margin-right: auto;
     margin-left: auto;
     position: relative;
 }
 
-.menu-opcoes{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-
-.menu-opcoes ul li{
-    display: inline;
-    margin-left: 30px;
-}
-
 .painel{
-    width: 40%;
+    width: 48%;
     margin: 10px 0;
     padding-left: 10px;
     float: left;
+    height: 160px;
 }
 
 .aula1{
+
+    float: left;
     background-color: burlywood;
+    background: linear-gradient(burlywood, lightgreen);
 }
 
 .aula2{
     float: right;
     background-color: darkgray;
+    background: linear-gradient(darkgray, lightgray);
+}
+
+.aula3{
+    background-color: burlywood;
+    background: linear-gradient(burlywood, lightgreen);
+}
+
+.aula4{
+    float: right;
+    background-color: darkgray;
+    background: linear-gradient(darkgray, lightgray);
+}
+
+.aula5{
+    background-color: burlywood;
+    background: linear-gradient(burlywood, lightgreen);
+}
+
+.aula7{
+    float: right;
+    background-color: darkgray;
+    background: linear-gradient(darkgray, lightgray);
+}
+
+.aula8{
+    background-color: burlywood;
+    background: linear-gradient(burlywood, lightgreen);
+}
+
+.aula9{
+    float: right;
+    background-color: darkgray;
+    background: linear-gradient(darkgray, lightgray);
+}
+
+.aula10{
+    background-color: burlywood;
+    background: linear-gradient(burlywood, lightgreen);
 }
 
 .painel li{
@@ -59,7 +78,21 @@ both{
 }
 
 .painel a{
-    color: coral;
-    font-size: 15px;
+    color: rgb(252, 73, 11);
+    font-size: 17px;
     text-align: center;
+}
+
+.img{
+    width: 5%;
+    height: auto;
+}
+
+.painel {
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px darkslategray;
+}
+
+.painel h2{
+    text-shadow: 3px 3px 4px rgba(47, 79, 79, 0.8);
 }
