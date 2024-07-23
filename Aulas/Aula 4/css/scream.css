@@ -1,0 +1,35 @@
+#esquerdo {
+    background-color: tomato;
+    float: left;
+    width: 49%;
+    height: 500px;
+}
+
+#esquerdo h1{
+    color: gold;
+    font-family: 'Sedgwick Ave', cursive;
+
+}
+
+#esquerdo p{
+    font-family: 'Caveat', cursive;
+}
+
+#direito{
+    float: right;
+    width: 49%;
+    height: 500px;
+}
+
+table th{
+    text-align: end;
+    border-bottom: 1px solid darkgray;
+}
+
+table td{
+    border-bottom: 1px solid darkgray;
+}
+
+footer{
+    text-align: center;
+}
