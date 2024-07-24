@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora</title>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./calculadora.css">
 </head>
 <body>
     <main>
         <div class="container">
-            <input type="text">
-            <button onclick="addNumber(1)">1</button>
-            <button onclick="addNumber(2)">2</button>
-            <button onclick="addNumber(3)">3</button>
-            <button onclick="addNumber(4)">4</button>
-            <button onclick="addNumber(5)">5</button>
-            <button onclick="addNumber(6)">6</button>
-            <button onclick="addNumber(7)">7</button>
-            <button onclick="addNumber(8)">8</button>
-            <button onclick="addNumber(9)">9</button>
-            <button onclick="addNumber(0)">0</button>
-            <button>+</button>
-            <button>-</button>
-            <button>x</button>
-            <button>÷</button>
-            <button>%</button>
-            <button>=</button>
-            <button>←</button>
-            <button>c</button>
+            <textarea id="texto"></textarea>
+            <button onclick="uptadeText(1)">1</button>
+            <button onclick="uptadeText(2)">2</button>
+            <button onclick="uptadeText(3)">3</button>
+            <button onclick="uptadeText(4)">4</button>
+            <button onclick="uptadeText(5)">5</button>
+            <button onclick="uptadeText(6)">6</button>
+            <button onclick="uptadeText(7)">7</button>
+            <button onclick="uptadeText(8)">8</button>
+            <button onclick="uptadeText(9)">9</button>
+            <button onclick="uptadeText(0)">0</button>
+            <button onclick="uptadeText('+')">+</button>
+            <button onclick="uptadeText('-')">-</button>
+            <button onclick="uptadeText('*')">x</button>
+            <button onclick="uptadeText('/')">÷</button>
+            <button onclick="uptadeText('%')">%</button>
+            <button onclick="calculate('=')">=</button>
+            <button onclick="uptadeText('.')">.</button>
+            <button onclick="returnText('⭠')">⭠</button>
+            <button onclick="clearText('c')">c</button>
         </div>
     </main>
+    <script src="./calculadora.js"></script>
 </body>
 </html>
