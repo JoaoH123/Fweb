@@ -1,4 +1,4 @@
-var banners = ["../img/174854.png", "../img/CSS3_logo.png", "../img/javascript-logo-javascript-icon-transparent-free-png.webp"];
+var banners = ["./img/174854.png", "./img/CSS3_logo.png", "./img/javascript-logo-javascript-icon-transparent-free-png.webp"];
 
 var bannerAtual = 0;
 
