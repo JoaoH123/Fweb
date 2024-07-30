@@ -10,7 +10,6 @@
     margin: 10px 0;
     padding-left: 10px;
     float: left;
-    height: 260px;
 }
 
 .aula1{
@@ -94,10 +93,12 @@
 
 .painel li{
     display: inline-block;
-    width: 100%;
+    width: 24%;
     vertical-align: top;
-    margin: 2px;
+    margin: 1px;
     padding-bottom: 10px;
+    margin-top: 2%;
+
 }
 
 .painel h2{
@@ -112,8 +113,8 @@
 }
 
 .img{
-    width: 5%;
-    height: auto;
+    width: 20%;
+    height: 5%;
 }
 
 .painel {
@@ -131,7 +132,7 @@
 }
 
 .mp3 {
-    margin-left: 45%;
+    text-align: center;
 }
 
 #titulo {

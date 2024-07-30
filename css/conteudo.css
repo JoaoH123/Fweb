@@ -1,4 +1,4 @@
-#imagem{
+#lupa{
     width: 5%;
     height: auto;
 }
@@ -7,7 +7,7 @@
     background-color: skyblue;
     font-weight: bold;/*negrito*/
     text-transform: uppercase;/*maiúscula*/
-    width: 35%;
+    width: 25%;
     margin-right: 10px;
     float: left;
 }
