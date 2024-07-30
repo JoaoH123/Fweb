@@ -1,0 +1,21 @@
+{
+    "matematica":[
+        "João", "Paulo", "Kleber"
+    ],
+
+    "potugues":[
+        "Andressa", "Amanda", "Nicolas"
+    ],
+
+    "artes":[
+        "Carlos", "Johan", "Wesley"
+    ],
+
+    "educacao fisica":[
+        "Lucas", "Arthur", "Pedro"
+    ],
+
+    "ciencias":[
+        "Eduardo", "Rodrigo", "Davi"
+    ]
+}

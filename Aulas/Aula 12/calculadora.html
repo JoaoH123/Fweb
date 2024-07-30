@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +6,28 @@
     <link rel="stylesheet" href="./calculadora.css">
 </head>
 <body>
-    <main>
+    <main class="fundo">
         <div class="container">
-            <textarea id="texto"></textarea>
-            <button onclick="uptadeText(1)">1</button>
-            <button onclick="uptadeText(2)">2</button>
-            <button onclick="uptadeText(3)">3</button>
-            <button onclick="uptadeText(4)">4</button>
-            <button onclick="uptadeText(5)">5</button>
-            <button onclick="uptadeText(6)">6</button>
-            <button onclick="uptadeText(7)">7</button>
-            <button onclick="uptadeText(8)">8</button>
-            <button onclick="uptadeText(9)">9</button>
-            <button onclick="uptadeText(0)">0</button>
-            <button onclick="uptadeText('+')">+</button>
-            <button onclick="uptadeText('-')">-</button>
-            <button onclick="uptadeText('*')">x</button>
-            <button onclick="uptadeText('/')">÷</button>
-            <button onclick="uptadeText('%')">%</button>
-            <button onclick="calculate('=')">=</button>
-            <button onclick="uptadeText('.')">.</button>
-            <button onclick="returnText('⭠')">⭠</button>
-            <button onclick="clearText('c')">c</button>
+            <textarea id="texto"></textarea><br>
+            <button class="botao" onclick="returnText('')"><</button>
+            <button class="botao" onclick="clearText('')">c</button>
+            <button class="botao" onclick="uptadeText('*')">x</button>
+            <button class="botao" onclick="uptadeText('/')">÷</button><br>
+            <button class="botao" onclick="uptadeText(7)">7</button>
+            <button class="botao" onclick="uptadeText(8)">8</button>
+            <button class="botao" onclick="uptadeText(9)">9</button>
+            <button class="botao" onclick="uptadeText('-')">-</button><br>
+            <button class="botao" onclick="uptadeText(4)">4</button>
+            <button class="botao" onclick="uptadeText(5)">5</button>
+            <button class="botao" onclick="uptadeText(6)">6</button>
+            <button class="botao" onclick="uptadeText('+')">+</button><br>
+            <button class="botao" onclick="uptadeText(1)">1</button>
+            <button class="botao" onclick="uptadeText(2)">2</button>
+            <button class="botao" onclick="uptadeText(3)">3</button>
+            <button class="botao" onclick="uptadeText('%')">%</button><br>
+            <button class="botao" onclick="uptadeText(0)">0</button>
+            <button class="botao" onclick="uptadeText('.')">.</button>
+            <button class="botao igual" onclick="calculate('=')">=</button>
         </div>
     </main>
     <script src="./calculadora.js"></script>

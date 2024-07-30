@@ -64,6 +64,34 @@
     background: linear-gradient(burlywood, lightgreen);
 }
 
+.aula11{
+    float: right;
+    background-color: darkgray;
+    background: linear-gradient(darkgray, lightgray);
+}
+
+.aula12{
+    background-color: burlywood;
+    background: linear-gradient(burlywood, lightgreen);
+}
+
+.aula14{
+    float: right;
+    background-color: darkgray;
+    background: linear-gradient(darkgray, lightgray);
+}
+
+.aula15{
+    background-color: burlywood;
+    background: linear-gradient(burlywood, lightgreen);
+}
+
+.aula16{
+    float: right;
+    background-color: darkgray;
+    background: linear-gradient(darkgray, lightgray);
+}
+
 .painel li{
     display: inline-block;
     width: 100%;

@@ -1,6 +1,7 @@
 html, body{
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 h1 {
@@ -30,7 +31,7 @@ h3 {
 }
 
 #imagem{
-    width: 45%;
+    width: 20%;
     height: auto;
     border: 3px solid skyblue;
 }
@@ -43,6 +44,7 @@ p{
     font-size: 18px;
     padding: 045;
     text-indent: 15px;
+    color: yellow;
 }
 
 #imagem_autor{
@@ -61,6 +63,11 @@ p{
 }
 
 video{
-    width: 50%;
+    width: 25%;
     height: auto;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
