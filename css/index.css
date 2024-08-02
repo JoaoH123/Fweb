@@ -10,11 +10,10 @@
     margin: 10px 0;
     padding-left: 10px;
     float: left;
+    height: 65px;
 }
 
 .aula1{
-
-    float: left;
     background-color: burlywood;
     background: linear-gradient(burlywood, lightgreen);
 }
@@ -91,9 +90,14 @@
     background: linear-gradient(darkgray, lightgray);
 }
 
+.aula17{
+    background-color: burlywood;
+    background: linear-gradient(burlywood, lightgreen);
+}
+
 .painel li{
-    display: inline-block;
-    width: 24%;
+    display: inline;
+    width: 15%;
     vertical-align: top;
     margin: 1px;
     padding-bottom: 10px;
@@ -113,7 +117,7 @@
 }
 
 .img{
-    width: 20%;
+    width: 5%;
     height: 5%;
 }
 

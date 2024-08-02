@@ -29,11 +29,6 @@ header img{
 }
 
 .painel li{
-    width: 30%;
-
-}
-
-.painel img{
     width: 25%;
 }
 
@@ -53,8 +48,4 @@ video{
 #imagem {
     width: 67%;
     height: auto;
-}
-
-body {
-    font-size: 20px;
 }
