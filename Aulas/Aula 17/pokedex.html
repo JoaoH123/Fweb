@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./pokedex.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <figure>
+                <img id="imgPokedex" src="./img/Cópia de pokedex.png" alt="imagem pokedex">
+            </figure>
+            <figure>
+                <img id="imgPokemon" src="#" alt="imagem pokemon">
+            </figure>
+            <h1 class="pokemonData1">
+                <span id="idPokemon">25</span> -
+                <span id="nomePokemon">Pikachu</span>
+            </h1>
+            <form class="formBusca">
+                <input type="search" id="inputName" placeholder="Nome ou Número" required>
+            </form>
+            <h1 class="pokemonData2">
+                <span id="tipagem1">Tipo:</span>
+                <span id="tipagem2"></span>
+                <div id="peso">Peso:</div>
+                <div id="altura">Altura:</div>
+                <div id="abilities">Habilidade:</div>
+            </h1>
+            <div class="buttons">
+                <button class="button" id="botao1">Anterior</button>
+                <button class="button" id="botao2">Proximo</button>
+            </div>
+            <audio src="#" autoplay class="som"></audio>
+        </div>
+        <section class="mp3">
+            <input type="range" id="input-range" min="0" max="1" step="0.01">
+            <audio src="./audio/FireRed.ogg" id="audioplayer"></audio>
+            <button id="Play">Play</button>
+        </section>
+    </main>
+    <script src="./pokedex.js"></script>
+</body>
+</html>
