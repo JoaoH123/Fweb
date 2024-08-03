@@ -57,7 +57,6 @@ main{
     left: 10%;
     text-align: start;
     font-size: 25px;
-    text-transform: capitalize;
 }
 
 #inputName{
@@ -92,4 +91,13 @@ main{
     background-color: darkslategrey;
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem;
+}
+
+#teste {
+    width: 100px;
+    height: 100px;
+}
+
+#tipagem1, #tipagem2, #abilities{
+    text-transform: capitalize;
 }

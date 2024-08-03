@@ -28,8 +28,8 @@ const showPokemon = async(pokemon) => {
         nomePokemon.innerHTML = dataPokemon.name;
         idPokemon.innerHTML = dataPokemon.id;
         tipoPokemon1.innerHTML = dataPokemon.types[0].type.name
-        pesoPokemon.innerHTML = dataPokemon.weight;
-        alturaPokemon.innerHTML = dataPokemon.height;
+        pesoPokemon.innerHTML = dataPokemon.weight / 10;
+        alturaPokemon.innerHTML = dataPokemon.height / 10;
         habilidadePokemon.innerHTML = dataPokemon.abilities[0].ability.name;
         if (dataPokemon.types.length>=2) {
             tipoPokemon2.innerHTML = dataPokemon.types[1].type.name
