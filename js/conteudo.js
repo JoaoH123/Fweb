@@ -4,5 +4,3 @@ function validaBusca(){
         return false
     }
 }
-
-document.querrySelector('#form-busca').onsubmit = validaBusca

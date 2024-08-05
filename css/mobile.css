@@ -46,6 +46,11 @@ video{
 }
 
 #imagem {
-    width: 67%;
+    width: 50%;
+    height: auto;
+}
+
+#imgPokedex {
+    width: 1px;
     height: auto;
 }

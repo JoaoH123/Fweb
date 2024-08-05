@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/rodape.css">
     <link rel="stylesheet" href="./css/cabecario.css">
     <link rel="stylesheet" href="./css/mobile.css" media="(max-width:720px)">
     <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
 </head>
 <body>
     <header class="container">
@@ -36,26 +37,24 @@
     <main>
     <ul>
         <li>
-            <h2>4 de Julho de 2024:</h2>
-            <p>Hoje iniciamos nossa primeira aula de Front-End e criamos um repositório no GitHub.</p><br>
-        </li>
-        <li>
             <h2>9 de Julho de 2024:</h2>
             <p>
                 Hoje aprendemos sobre bordas e, em seguida, realizamos um exercício onde recriamos uma página sobre a obra "Scream".</p>
-            <a href="./Aulas/Aula 4/Exer2/scream.html">Exercicio: O Grito</a>
         </li><br>
         <li>
             <h2>19 de Julho de 2024:</h2>
             <p>Hoje desenvolvemos uma calculadora utilizando HTML, CSS e JavaScript.</p>
-            <a href="./Aulas/Aula 12/calculadora.html">Exercicio: Calculadora</a>
         </li><br>
         <li>
             <h2>30 de Julho de 2024:</h2>
             <p>Hoje criamos uma Pokédex inspirada no universo Pokémon.</p>
-            <a href="./Aulas/Aula 17/pokedex.html">Exercicio: Pokedex</a>
         </li>
     </ul>
+    <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1</h4><a href="./Aulas/Aula 4/Exer2/scream.html">Exercicio: O Grito</a> <img src="./img/imgOGrito.png" alt="img O Grito"></div>
+        <div class="item"><h4>2</h4><a href="./Aulas/Aula 12/calculadora.html">Exercicio: Calculadora</a> <img src="./img/imgCalculadora.png" alt="img Calculadora" id="imgCalculadora"></div>
+        <div class="item"><h4>3</h4><a href="./Aulas/Aula 17/pokedex.html">Exercicio: Pokedex</a> <img src="./img/imgPokedex.png" alt="img Pokedex" id="imgCalculadora"></div>
+    </div>
     </main>
     <footer>
         <figure>
@@ -67,5 +66,8 @@
             <a href="https://www.tiktok.com/@joa0_h">tiktok</a>
         </div>
     </footer>
+    <script src="./js/jquerry.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/blog.js"></script>
 </body>
 </html>

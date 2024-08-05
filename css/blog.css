@@ -1,5 +1,18 @@
+main {
+    height: 400px;
+}
+
 ul li{
     position: relative;
     margin-top: 5%;
     margin-bottom: -3%;
+}
+
+.owl-carousel {
+    margin-top: 60px;
+    background-color: aqua;
+}
+
+#imgCalculadora{
+    width: 100px;
 }

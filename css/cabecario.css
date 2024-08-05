@@ -40,3 +40,8 @@ header{
 main{
     height: 65%;
 }
+
+#imgLogo {
+    width: 150px;
+    height: auto;
+}
