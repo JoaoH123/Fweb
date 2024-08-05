@@ -1,0 +1,28 @@
+#div1{
+    border-radius: 50%;
+}
+
+#div2{
+    border-radius: 10px;
+}
+
+#div3{
+    border-radius: 20px;
+}
+
+#div4{
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+}
+
+#div5{
+    border-radius: 10% 50% 10% 50% / 50% 10% 50% 10%;
+}
+
+div{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    margin: 10px;
+    color: goldenrod;
+}

@@ -5,14 +5,14 @@
     position: relative;
 }
 
-.container a[href*=GitHub]{
+.container a[href*=github]{
     color: black;
 }
 
-.container a[href*=Instagram]{
+.container a[href*=instagram]{
     color: orangered;
 }
 
-.container a[href*=TikTok]{
+.container a[href*=tiktok]{
     color: darkmagenta;
 }
