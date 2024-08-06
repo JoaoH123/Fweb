@@ -32,11 +32,6 @@ header img{
     width: 25%;
 }
 
-video{
-    width: 80%;
-    height: auto;
-}
-
 #inputlupa{
     width: 75%;
 }
@@ -52,5 +47,10 @@ video{
 
 #imgPokedex {
     width: 1px;
+    height: auto;
+}
+
+#imgLogo {
+    width: 120px;
     height: auto;
 }

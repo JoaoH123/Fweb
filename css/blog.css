@@ -16,3 +16,7 @@ ul li{
 #imgCalculadora{
     width: 100px;
 }
+
+.img{
+    border-radius: 10px;
+}
